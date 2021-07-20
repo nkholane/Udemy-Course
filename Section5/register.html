@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Register</title>
+</head>
+<body>
+	<!-- Use GET method -->
+	<form method="GET"> 
+	<div> <!-- Divides each section by blocks -->
+		First Name: <input type="text" name="firstname"><br>
+		Last Name: <input type="text" name="lastname"><br>
+		Email: <input type="email" name="email" required name="email"><br>
+		Password: <input type="password" min="8" name="password"><br>
+		Date of Birth : <input type="date" name="date"><br>
+		Gender: <br> <!-- radio as a selector -->
+		<input type="radio" name="gender" value="MALE">Male
+		<input type="radio" name="gender" value="FEMALE">Female
+		<input type="radio" name="gender" value="OTHER">Other<br>
+
+		Occupation: <br> <!-- checkboxes  -->
+		<input type="checkbox" name="technician">Technician<br>
+		<input type="checkbox" name="software-engineer">Software Engineer<br>
+		<input type="checkbox" name="sales">Sales Associate<br>
+		<input type="checkbox" name="logistics">Logistics<br>
+		<input type="checkbox" name="other">Other<br>
+
+		Driver's License: <br> <!-- Select tag -->
+		<select name="drivers-license">
+			<option value="code8" name="code8">Code 8</option>
+			<option value="code10" name="code10">Code 10</option>
+			<option value="code14" name="code14">Code 14</option>
+		</select><br><br>
+
+		<input type="submit" value="Register">
+		<input type="reset" value="Reset">
+		</div>
+	</form>
+	
+</body>
+<footer> <!-- Sementic tag -->
+		End of page
+	</footer>
+</html>
