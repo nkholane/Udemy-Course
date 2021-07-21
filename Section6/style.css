@@ -1,0 +1,57 @@
+*{
+	text-align: justify;
+}
+body {
+	background-image: url(bodyimage.jpg);
+	background-size: cover;
+}
+
+h2:hover{
+	color: darkblue;
+	text-align: center;
+	border: dotted 5px black;
+	cursor: crosshair;
+
+}
+
+img {
+	float: left;
+}
+
+footer {
+	clear: both;
+	font-size: 150%;
+	color: darkblue;
+	text-align: right;
+}
+
+p{
+	color: black;
+	background-color: skyblue;
+	text-decoration: underline;
+	text-transform: uppercase;
+	line-height: 20px;
+	font-size: 85%;
+	font-style: italic;
+	font-family: 'Poiret One', cursive;
+}
+
+span {
+	font-size: 30px;
+}
+
+li{
+	list-style: square;
+	display: inline-block;
+	margin: 10px;
+}
+
+.paragraph {
+	border: solid 4px green;
+}
+
+#first {
+	background-color: lightcoral;
+	text-align: center;
+}
+
