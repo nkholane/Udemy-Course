@@ -1,0 +1,22 @@
+.pics{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap-reverse;
+}
+h2 {
+	font-size: 3em;
+	font-family: fantasy;
+	text-align: center;
+	border-bottom: 3px dashed blue;
+	box-shadow: 4px 4px 4px #888888;
+}
+img{
+	width: 450px;
+	height: 450px;
+	margin: 10px;
+	transition: all 1s;
+}
+
+img:hover{
+	transform: scale(1.1);
+}
